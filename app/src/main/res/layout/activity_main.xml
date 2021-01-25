@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="134dp"
+        android:layout_height="25dp"
+        android:text="Usuario"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="133dp"
+        android:layout_height="25dp"
+        android:text="Contraseña"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Lanzar"
+        android:text="Aceptar"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <EditText
+        android:id="@+id/tpasss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <EditText
+        android:id="@+id/tuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <RadioGroup
+        android:layout_width="175dp"
+        android:layout_height="133dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="351dp">
+
+        <RadioButton
+            android:id="@+id/rbregistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar" />
+
+        <RadioButton
+            android:id="@+id/rbacceder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acceder" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
